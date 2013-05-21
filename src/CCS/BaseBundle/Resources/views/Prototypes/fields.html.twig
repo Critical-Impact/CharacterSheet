@@ -1,0 +1,10 @@
+{% block _ccs_basebundle_usertype_files_widget %}
+{% spaceless %}
+{% if prototype is defined %}
+{% endif %}
+<div {{ block('widget_container_attributes') }}>
+    {{ form_errors(form) }}
+
+</div>
+{% endspaceless %}
+{% endblock %}

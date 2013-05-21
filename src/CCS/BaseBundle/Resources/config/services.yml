@@ -1,0 +1,7 @@
+parameters:
+#    ccs_base.example.class: CCS\BaseBundle\Example
+
+services:
+#    ccs_base.example:
+#        class: %ccs_base.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

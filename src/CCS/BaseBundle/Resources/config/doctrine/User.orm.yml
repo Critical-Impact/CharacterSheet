@@ -1,0 +1,28 @@
+CCS\BaseBundle\Entity\User:
+    type: entity
+    table: user
+    repositoryClass: CCS\BaseBundle\Entity\Repository\UserRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }
+    manyToMany:
+        files:
+          targetEntity: File
+          cascade: {}
+          mappedBy: null
+          inversedBy: null
+          joinTable:
+            name: user_files
+            joinColumns:
+              -
+                 name: user_id
+                 referencedColumnName: id
+            inverseJoinColumns:
+              -
+                name: file_id
+                referencedColumnName: id
+          orderBy: null

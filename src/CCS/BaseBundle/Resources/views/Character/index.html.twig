@@ -1,0 +1,62 @@
+{% extends "CCSBaseBundle:Base:base.html.twig" %}
+
+{% block content %}
+<h2>Characters</h2>
+
+<table>
+    <thead><tr>
+        <th>Id</th>
+        <th>Name</th><th>Description</th><th></th>
+    </tr></thead>
+    <tbody data-bind="foreach: characters">
+    <tr>
+        <td data-bind="text: id"></td>
+        <td data-bind="text: name"></td>
+        <td data-bind="text: description"></td>
+        <td><button data-bind="click: $parent.removeCharacter">Remove</button></td>
+    </tr>
+
+
+    </tbody>
+</table>
+
+<script type="text/javascript">
+    function Character(data) {
+        this.id = ko.observable(data.id);
+        this.name = ko.observable(data.name);
+        this.description = ko.observable(data.description);
+    }
+
+    var mapping = {
+        key: function(data) {
+            return ko.utils.unwrapObservable(data.id);
+        }
+    };
+
+    function CharacterViewModel()
+    {
+        var self = this;
+        self.characters = ko.observableArray([]);
+        //Load the initial data
+        $.getJSON("{{ path('character_get_characters', {'_format' : 'json'}) }}", function(allData) {
+            var mappedCharacters = $.map(allData.characters, function(item) { return new Character(item) });
+            self.characters(mappedCharacters);
+        });
+        self.removeCharacter = function(character) {
+            $.ajax(Routing.generate('character_delete_characters', { id: ko.toJSON(character.id) }), {
+                type: "DELETE", contentType: "application/json",
+                success: function(result) { self.characters.remove(character) }
+            });
+        }
+    }
+
+    $(function()
+    {
+        ko.applyBindings(new CharacterViewModel());
+    });
+
+
+
+
+</script>
+{% endblock %}

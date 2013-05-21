@@ -1,0 +1,432 @@
+# Webalizer V2.01-10 Incremental Data - 05/09/2013 15:30:14
+2013 5 9 15 30 14
+704 377 1 149 5 2 2387199 284 3 0 0 0
+1 90 196 8 9
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+465 232 1700071 1 179 2 0 0
+239 145 687128 1 105 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+98 38 398266 35 0 0
+278 156 1004930 119 0 0
+152 87 419864 66 0 0
+0 0 0 0 0 0
+176 96 564139 64 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0
+0
+0
+377
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+299
+0
+0
+0
+0
+0
+0
+4
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+6
+0
+0
+17
+0
+0
+0
+0
+0
+# -urls- 
+/app_dev.php/_wdt/fe260f
+0 1 0 11111 0 0 0 0
+/app_dev.php/_wdt/1eec9b
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/d2ec34
+0 1 -2604246222170760229 11682 0 0 0 0
+/app_dev.php/_wdt/02902f
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/5161be
+0 1 0 11682 0 0 0 0
+/app_dev.php/characters
+0 130 0 280569 2 1 0 0
+/app_dev.php/_wdt/adbc25
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/8bb7a3
+0 1 0 11110 0 0 0 0
+/app_dev.php/characters/1
+0 1 0 974 0 0 0 0
+/app_dev.php/characters/2
+0 1 0 2140 0 0 0 0
+/bundles/framework/images/border_l.png
+1 2 0 727 0 0 0 0
+/app_dev.php/_wdt/d1a5bf
+0 1 0 11681 0 0 0 0
+/app_dev.php/_wdt/d723be
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/d7f0bb
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/ff486a
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/f268cf
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/8e693f
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/23d381
+0 1 0 11683 0 0 0 0
+/app_dev.php/_wdt/67d345
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/ddd4df
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/4e1509
+0 1 0 11110 0 0 0 0
+/app_dev.php/_wdt/7a8c6d
+0 1 0 11680 0 0 0 0
+/bundles/framework/images/close_quote.gif
+1 7 0 1707 0 0 0 0
+/bundles/framework/images/logo_symfony.png
+1 7 0 2883 0 0 0 0
+/app_dev.php/_wdt/4f926c
+0 1 0 11987 0 0 0 0
+/bundles/fosjsrouting/js/router.js
+0 6 0 3396 0 0 0 0
+/app_dev.php/_wdt/476831
+0 1 0 11111 0 0 0 0
+/app_dev.php/_wdt/0f2ddf
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/26d821
+0 1 0 11107 0 0 0 0
+/kendo/styles/Default/loading-image.gif
+1 2 0 6621 0 0 0 0
+/app_dev.php/_wdt/fdb2c4
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/5795d2
+0 1 0 11984 0 0 0 0
+/app_dev.php/_wdt/41f91b
+0 1 -2604246222170760229 11989 0 0 0 0
+/app_dev.php/_wdt/c1b0e5
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/bff46b
+0 1 -2604246222170760229 11679 0 0 0 0
+/app_dev.php/_wdt/ea1796
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/71fc90
+0 1 -2604246222170760229 11108 0 0 0 0
+/app_dev.php/_wdt/74fbe4
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/d34268
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/786816
+0 1 -2604246222170760229 11989 0 0 0 0
+/app_dev.php/_wdt/c6c4c1
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/69f2bd
+0 1 -2604246222170760229 11680 0 0 0 0
+/app_dev.php/_wdt/3edabf
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/1578ce
+0 1 -2604246222170760229 11679 0 0 0 0
+/app_dev.php/_wdt/286bad
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/2523ea
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/0913be
+0 1 0 11110 0 0 0 0
+/app_dev.php/_wdt/47e989
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/3f3ee0
+0 1 0 11988 0 0 0 0
+/app_dev.php/_wdt/7aa431
+0 1 140641626893984 11679 0 0 0 0
+/app_dev.php/_wdt/60fbc0
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/4bc5d1
+0 1 0 11680 0 0 0 0
+/libs/json3.min.js
+0 7 0 4722 0 0 0 0
+/bundles/framework/images/btn_bg.png
+1 2 0 564 0 0 0 0
+/bundles/framework/images/blue_picto_more.gif
+1 7 0 1628 0 0 0 0
+/app_dev.php/_wdt/96197a
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/8640ca
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/da12b4
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/c7d94b
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/16d7ff
+0 1 0 11679 0 0 0 0
+/libs/app.js
+0 5 0 1867 0 0 0 0
+/app_dev.php/_wdt/c1d450
+0 1 0 11681 0 0 0 0
+/app_dev.php/_wdt/108604
+0 1 0 11988 0 0 0 0
+/app_dev.php/_wdt/142f16
+0 1 0 11108 0 0 0 0
+/bundles/framework/css/exception.css
+0 7 0 3230 0 0 0 0
+/app_dev.php/_wdt/c10f2f
+0 1 0 11989 0 0 0 0
+/app_dev.php/_wdt/d704f4
+0 1 0 11680 0 0 0 0
+/libs/jquery-1.9.1.min.js
+0 7 0 34409 0 0 0 0
+/app_dev.php/_wdt/e36a5c
+0 1 0 11680 0 0 0 0
+/bundles/framework/images/exception_detected.png
+1 7 0 5064 0 0 0 0
+/js/knockout.mapping.js
+0 72 0 28041 0 0 0 0
+/app_dev.php/_wdt/401b29
+0 1 0 11108 0 0 0 0
+/favicon.ico
+0 2 0 1635 0 0 0 0
+/app_dev.php/_wdt/ad00bd
+0 1 0 11109 0 0 0 0
+/kendo/js/kendo.web.min.js
+0 18 0 181170 0 0 0 0
+/app_dev.php/_wdt/632a03
+0 1 0 11680 0 0 0 0
+/kendo/styles/Default/sprite.png
+1 1 0 18130 0 0 0 0
+/app_dev.php/_wdt/746ade
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/f50360
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/02035e
+0 1 0 11110 0 0 0 0
+/bundles/framework/images/grey_magnifier.png
+1 7 0 1816 0 0 0 0
+/app_dev.php/_wdt/ee70b2
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/bb5425
+0 1 0 11679 0 0 0 0
+/libs/handlebars.js
+0 7 0 19684 0 0 0 0
+/app_dev.php/_wdt/3be743
+0 1 0 11988 0 0 0 0
+/app_dev.php/_wdt/20b221
+0 1 0 11165 0 0 0 0
+/kendo/styles/kendo.default.min.css
+0 18 0 7074 0 0 0 0
+/app_dev.php/_wdt/413162
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/f97e82
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/37b984
+0 1 0 11111 0 0 0 0
+/app_dev.php/_wdt/65ab52
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/833537
+0 1 0 11990 0 0 0 0
+/app_dev.php/_wdt/e45886
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/2602b1
+0 1 0 11680 0 0 0 0
+/bundles/framework/images/input_bg.gif
+1 2 0 540 0 0 0 0
+/app_dev.php/_wdt/276121
+0 1 0 11109 0 0 0 0
+/bundles/framework/images/border_r.png
+1 2 0 731 0 0 0 0
+/app_dev.php/_wdt/8821f9
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/b48372
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/82133d
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/e0ba5d
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/0c37c5
+0 1 0 11682 0 0 0 0
+/app_dev.php/_wdt/d7151e
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/562f61
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/ec2121
+0 1 0 11111 0 0 0 0
+/app_dev.php/_wdt/2ccef0
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/86d666
+0 1 0 11681 0 0 0 0
+/app_dev.php/_wdt/168f9f
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/28cc95
+0 1 0 11682 0 0 0 0
+/app_dev.php/_wdt/98cb3d
+0 1 0 11681 0 0 0 0
+/app_dev.php/_wdt/24b776
+0 1 0 11109 0 0 0 0
+/libs/ember-1.0.0-rc.3.min.js
+0 7 0 55733 0 0 0 0
+/app_dev.php/characters.json
+0 89 0 59697 0 0 0 0
+/app_dev.php/_wdt/c97f3b
+0 1 0 11109 0 0 0 0
+/kendo/js/jquery.min.js
+0 18 0 36769 0 0 0 0
+/app_dev.php/_wdt/cf3306
+0 1 0 11108 0 0 0 0
+/app_dev.php/_wdt/837f45
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/ff7a12
+0 1 0 11108 0 0 0 0
+/bundles/framework/css/exception_layout.css
+0 7 0 2426 0 0 0 0
+/app_dev.php/_wdt/f7ca48
+0 1 0 11109 0 0 0 0
+/app_dev.php/_wdt/1784d9
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/ae16e7
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/5a8464
+0 1 0 11110 0 0 0 0
+/app_dev.php/_wdt/139411
+0 1 0 11112 0 0 0 0
+/app_dev.php/_wdt/f98cab
+0 1 0 11107 0 0 0 0
+/app_dev.php/_wdt/5ed5ff
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/dc44c7
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/b580c2
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/5252bf
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/751e4a
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/68c88d
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/785e5a
+0 1 0 11680 0 0 0 0
+/app_dev.php/_wdt/add0b7
+0 1 0 11989 0 0 0 0
+/app_dev.php/_wdt/9ebc64
+0 1 -2604246222170760229 11682 0 0 0 0
+/bundles/framework/images/blue_picto_less.gif
+1 7 0 1611 0 0 0 0
+/app_dev.php/_wdt/6bc12e
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/c068ac
+0 1 0 11165 0 0 0 0
+/app_dev.php/_wdt/f35c60
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/f4a040
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/9d3ca3
+0 1 0 11683 0 0 0 0
+/js/jquery.min.js
+0 72 0 81173 0 0 0 0
+/app_dev.php/_wdt/61c380
+0 1 0 11679 0 0 0 0
+/app_dev.php/_wdt/dbe669
+0 1 0 11108 0 0 0 0
+/app_dev.php/js/routing
+0 8 0 5231 0 0 0 0
+/app_dev.php/_wdt/206521
+0 1 0 11108 0 0 0 0
+/bundles/framework/images/open_quote.gif
+1 7 0 1705 0 0 0 0
+/app_dev.php/_wdt/6a0538
+0 1 0 11107 0 0 0 0
+/kendo/styles/kendo.common.min.css
+0 18 0 18475 0 0 0 0
+/app_dev.php/_wdt/cc3534
+0 1 0 11108 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+192.168.1.127
+0 704 377 2387199 3 1368113414
+/app_dev.php/_wdt/96197a 0 0
+# End Of Table - sites (monthly)
+# -sites- (daily)
+192.168.1.127
+0 239 145 687128 1 1368113414
+/app_dev.php/_wdt/96197a 0 0
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 149
+http://symfony2test.server/app_dev.php/characters/1
+0 1
+http://symfony2test.server/app_dev.php/characters/2
+0 3
+http://symfony2test.server/app_dev.php/1/edit
+0 1
+http://symfony2test.server/app_dev.php/characters
+0 550
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+0 419
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+0 285
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

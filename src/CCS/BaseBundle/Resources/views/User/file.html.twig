@@ -1,0 +1,22 @@
+{% form_theme form 'CCSBaseBundle:Prototypes:fields.html.twig' %}
+
+{% block form_row %}
+
+{% endblock %}
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<form method="POST" {{ form_enctype(form) }}>
+<div class="proto-row" id="files_proto" data-prototype="{% filter escape %}{% include 'CCSBaseBundle:Prototypes:user_files.html.twig' with {'form': form.files.vars.prototype} %}{% endfilter %}">
+    <div id="file-rows">
+
+        {{ form_widget(form.files)}}
+
+    </div>
+</div>
+<div style="clear:both"></div>
+{% include 'CCSBaseBundle:Prototypes:dynamic_list_var.html.twig' with {delete_handler_name: 'user_files_delete',add_handler_name: 'user_files_add', prototype_name : '#files_proto', row_type: '.row', append_to: '#file-rows'} %}
+
+{{ form_rest(form) }}
+
+<input type="submit">
+</form>

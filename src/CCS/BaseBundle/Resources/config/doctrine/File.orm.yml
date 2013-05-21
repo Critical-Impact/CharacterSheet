@@ -1,0 +1,73 @@
+CCS\BaseBundle\Entity\File:
+  type: entity
+  table: file
+  fields:
+    id:
+      type: integer
+      length: null
+      precision: 0
+      scale: 0
+      nullable: false
+      unique: false
+      id: true
+      generator:
+        strategy: IDENTITY
+    name:
+      type: string
+      length: 255
+      nullable: true
+      column: name
+    description:
+      type: text
+      nullable: true
+      column: description
+    fileLocation:
+      type: string
+      length: 255
+      precision: 0
+      scale: 0
+      nullable: true
+      unique: false
+      column: file_location
+    fileName:
+      type: string
+      length: 255
+      precision: 0
+      scale: 0
+      nullable: true
+      unique: false
+      column: file_name
+    locationType:
+      type: string
+      length: 255
+      precision: 0
+      scale: 0
+      nullable: true
+      unique: false
+      column: location_type
+    uploadToS3:
+      type: boolean
+      column: upload_to_s3
+      nullable: true
+
+    isUploadedToS3:
+      type: boolean
+      column: is_uploaded_to_s3
+      nullable: true
+    creationDate:
+      type: date
+      nullable: true
+      gedmo:
+        timestampable:
+          on: create
+    lastModified:
+      type: date
+      nullable: true
+      gedmo:
+        timestampable:
+          on: update
+  lifecycleCallbacks:
+     prePersist: [ preUpload ]
+     preUpdate: [ preUpload ]
+     postPersist: [ upload ]
+     postUpdate:  [ upload ]

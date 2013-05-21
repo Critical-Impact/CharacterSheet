@@ -1,0 +1,14 @@
+CCS\BaseBundle\Entity\Character:
+    type: entity
+    table: player_character
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        name:
+            type: string
+        description:
+            type: string
+    lifecycleCallbacks: {  }

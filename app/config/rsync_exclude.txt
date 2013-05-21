@@ -1,0 +1,6 @@
+/vendor/*
+/app/logs/*
+/app/cache/*
+/web/uploads/*
+/app/config/parameters.ini
+/app/config/parameters.yml

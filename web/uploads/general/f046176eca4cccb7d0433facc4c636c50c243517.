@@ -1,0 +1,55 @@
+<?php
+/**
+ * Class BasicItemLogger
+ * @author Blair Williams
+ *
+ * Returns basic SKU for item in the Magmi output log.
+*/ 
+class Magmi_BasicItemLogger extends Magmi_ItemProcessor
+{
+
+
+    public function getPluginInfo()
+    {
+        return array(
+            "name" => "Basic Item Logger",
+            "author" => "Blair Williams",
+            "version" => "0.0.1",
+            "url"=> "http://criticalcomputersolutions.com.au"
+        );
+    }
+    static public function getCategory()
+    {
+        return "Input Data Preprocessing";
+    }
+
+    public function getPluginParams($params)
+    {
+    }
+
+    public function initialize($params)
+    {
+    }
+
+    public function processItemAfterId(&$item,$params)
+    {   
+
+        if($params['new'] == 1)
+        {
+			$this->writeLog($item["sku"]);
+        }
+
+        return true;
+    }
+	
+	function writeLog($message)
+	{
+		$myFile = "/home/christia/public_html/var/import/ftp/newproducts.txt";
+		$fh = fopen($myFile, 'a+') or die("can't open file");
+		$date = new \DateTime();
+		$date = $date->format('d/M/y g:i a');
+		fwrite($fh, "[" . $date . "] - " . $message . "\n");
+		fclose($fh);
+	}	
+	
+}

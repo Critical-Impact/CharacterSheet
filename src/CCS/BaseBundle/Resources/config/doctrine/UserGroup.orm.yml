@@ -1,0 +1,10 @@
+CCS\BaseBundle\Entity\UserGroup:
+    type: entity
+    table: usergroup
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }

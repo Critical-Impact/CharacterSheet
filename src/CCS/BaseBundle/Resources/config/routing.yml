@@ -1,0 +1,11 @@
+ccs_base_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CCSBaseBundle:Default:index }
+ccs_user_edit:
+    pattern:  /user
+    defaults: { _controller: CCSBaseBundle:User:addFiles }
+rest_routing:
+    type: rest
+    resource: "@CCSBaseBundle/Resources/config/rest_routing.yml"
+    options:
+        expose: true

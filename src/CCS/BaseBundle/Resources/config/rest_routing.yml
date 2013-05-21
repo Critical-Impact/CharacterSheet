@@ -1,0 +1,4 @@
+characters:
+    type:     rest
+    resource: CCS\BaseBundle\Controller\CharacterController
+    name_prefix: character_

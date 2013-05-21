@@ -1,0 +1,14 @@
+servers:
+    production:
+        host: questing.au.com
+        user: questing
+        dir: /home/questing/symfony/
+        port: 22 # Optional, default 22
+        password: Mugg1nsGeneral
+        options: # Server options, override the globals
+            dry_run: %kernel.debug%
+    dev:
+        host: questing.au.com
+        user: questing
+        dir: /home/questing/symfony/
+        password: Mugg1nsGeneral

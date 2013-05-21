@@ -1,0 +1,30 @@
+character:
+    pattern:  /
+    defaults: { _controller: "CCSBaseBundle:Character:index" }
+
+character_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "CCSBaseBundle:Character:show" }
+
+character_new:
+    pattern:  /new
+    defaults: { _controller: "CCSBaseBundle:Character:new" }
+
+character_create:
+    pattern:  /create
+    defaults: { _controller: "CCSBaseBundle:Character:create" }
+    requirements: { _method: post }
+
+character_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "CCSBaseBundle:Character:edit" }
+
+character_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "CCSBaseBundle:Character:update" }
+    requirements: { _method: post }
+
+character_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "CCSBaseBundle:Character:delete" }
+    requirements: { _method: post }

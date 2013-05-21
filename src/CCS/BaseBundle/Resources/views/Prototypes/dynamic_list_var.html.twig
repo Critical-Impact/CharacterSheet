@@ -1,0 +1,68 @@
+<script type="text/javascript">
+    var highest = 0;
+    jQuery(document).ready(function() {
+        // Handler for .ready() called.
+        jQuery("{{ prototype_name }}").each(function(index) {
+            var $self = jQuery(this);
+            if($self.find("{{ row_type }}").length == 0)
+            {
+                prototype = $self.data('prototype');
+                highest = 1;
+                prototype = prototype.replace(/\$\$name\$\$/g, highest);
+                $p = jQuery(prototype);
+                $self.find("{{ append_to }}").append($p);
+            }
+        });
+
+    });
+    function {% if add_handler_name is not defined %}addHandler(e){% else %}{{ add_handler_name }}(e){% endif %}
+    {
+        var prototype = jQuery(e).closest("{{ prototype_name }}");
+        var count = currentHighest(prototype) + 1;
+
+        proto = jQuery(prototype).data('prototype').replace(/\$\$name\$\$/g, count);
+        $p = jQuery(proto);
+        var lastTR = prototype.find("{{ append_to }}");
+        lastTR.append($p);
+    }
+
+    function {% if delete_handler_name is not defined %}deleteHandler(e){% else %}{{ delete_handler_name }}(e){% endif %}
+    {
+        var prototype = jQuery(e).closest("{{ prototype_name }}");
+        var count = prototype.find("{{ row_type }}").length;
+        if(count != 1)
+        {
+            var table = jQuery(e).closest("{{ row_type }}");
+            jQuery(table).remove();
+        }
+    }
+
+    function currentHighest($prototype)
+    {
+        var highest = 1;
+        count = $prototype.find("{{ row_type }}").each(function(index)
+        {
+            var name = jQuery(this).find(':input')[0];
+            var namesplit = jQuery(name).attr('id').split('_');
+            var newno = 500;
+            for (loop=0;loop<=namesplit.length;loop++)
+            {
+                if(!isNaN(parseInt(namesplit[loop])))
+                {
+                    newno = parseInt(namesplit[loop]);
+                    break;
+                }
+            }
+
+            if(newno > highest)
+            {
+                highest = newno;
+            }
+
+        });
+        return highest;
+
+    }
+
+
+</script>
